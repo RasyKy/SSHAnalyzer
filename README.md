@@ -17,19 +17,19 @@ It separates the **Core Logic** from the **Interface**, making it capable of run
 
 ## Project Structure
 
-LogAnalyzer/
-├── analyzer.py        # The Core Logic (Brain) - Shared Library
-├── cli.py     # The CLI Tool (Interface) - Run this!
-└── test.log           # Sample data for testing
+LogAnalyzer folder: 
+analyzer.py # The Core Logic (Brain) - Shared Library
+cli.py     # The CLI Tool (Interface) - Run this!
+test.log   # Sample data for testing
 
 ## Project Structure
 - Prerequisites
 Python 3.x installed
 
 - Usage
-1. Clone the repository: git clone https://github.com/cheetahh1/LogAnalyzer.git
-
+1. Clone the repository:
+git clone https://github.com/cheetahh1/LogAnalyzer.git
 cd LogAnalyzer
 
-2. Run the tool against a log file
+2. Run the tool against a log file: 
 python cli.py test.log
