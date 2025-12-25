@@ -1,0 +1,4 @@
+fastapi==0.127.0
+loganalyzer==1.0.0
+uvicorn==0.40.0
+git+https://github.com/cheetahh1/LogAnalyzer.git
