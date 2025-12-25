@@ -33,3 +33,6 @@ cd LogAnalyzer
 
 2. Run the tool against a log file: 
 python cli.py test.log
+
+3. or you can just pip install it so u can use the whole library
+pip install git+https://github.com/cheetahh1/LogAnalyzer.git
